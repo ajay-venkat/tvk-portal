@@ -280,7 +280,7 @@ function logMockEmail(
   type: string,
   to: string,
   subject: string,
-  payload: Record<string, unknown>
+  payload: any
 ): void {
   console.log('='.repeat(60));
   console.log(` [MOCK EMAIL] ${type}`);
