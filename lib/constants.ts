@@ -20,16 +20,21 @@ export interface WardDefinition {
 
 /** All wards in R.K. Nagar constituency */
 export const WARDS: readonly WardDefinition[] = [
-  { id: 1,  nameTa: 'வார்டு 1 - செல்லூர்',              nameEn: 'Ward 1 - Sellur',           areaCode: 'SELLUR',          lat: 9.9392, lng: 78.1172 },
-  { id: 2,  nameTa: 'வார்டு 2 - அருள் தாஸ் காலனி',       nameEn: 'Ward 2 - Aruldhas Colony',   areaCode: 'ARULDHAS',        lat: 9.9350, lng: 78.1200 },
-  { id: 3,  nameTa: 'வார்டு 3 - கிருஷ்ணாபுரம்',          nameEn: 'Ward 3 - Krishnapuram',      areaCode: 'KRISHNAPURAM',    lat: 9.9300, lng: 78.1150 },
-  { id: 4,  nameTa: 'வார்டு 4 - அண்ணா நகர் கிழக்கு',     nameEn: 'Ward 4 - Anna Nagar East',   areaCode: 'ANNA_NAGAR_E',    lat: 9.9220, lng: 78.1390 },
-  { id: 5,  nameTa: 'வார்டு 5 - சுப்பிரமணியபுரம்',       nameEn: 'Ward 5 - Subramaniyapuram',   areaCode: 'SUBRAMANIAPURAM', lat: 9.9280, lng: 78.1300 },
-  { id: 6,  nameTa: 'வார்டு 6 - கோரிப்பாளையம்',          nameEn: 'Ward 6 - Goripalayam',        areaCode: 'GORIPALAYAM',     lat: 9.9325, lng: 78.1250 },
-  { id: 7,  nameTa: 'வார்டு 7 - தெப்பக்குளம்',           nameEn: 'Ward 7 - Teppakulam',         areaCode: 'TEPPAKULAM',      lat: 9.9200, lng: 78.1190 },
-  { id: 8,  nameTa: 'வார்டு 8 - அரசரடி',                 nameEn: 'Ward 8 - Arasaradi',          areaCode: 'ARASARADI',       lat: 9.9260, lng: 78.1220 },
-  { id: 9,  nameTa: 'வார்டு 9 - வண்டியூர்',              nameEn: 'Ward 9 - Vandiyur',           areaCode: 'VANDIYUR',        lat: 9.9180, lng: 78.1350 },
-  { id: 10, nameTa: 'இதர பகுதிகள்',                      nameEn: 'Other / Not Listed',          areaCode: 'OTHER',           lat: 9.9250, lng: 78.1200 },
+  { id: 10, nameTa: 'டாக்டர் ராதாகிருஷ்ணன் நகர் (வடக்கு)', nameEn: 'Dr. Radhakrishnan Nagar (North)', areaCode: 'WARD_10', lat: 13.1250, lng: 80.2850 },
+  { id: 11, nameTa: 'செரியன் நகர் (வடக்கு)', nameEn: 'Cheriyan Nagar (North)', areaCode: 'WARD_11', lat: 13.1260, lng: 80.2860 },
+  { id: 12, nameTa: 'ஜீவா நகர் (வடக்கு)', nameEn: 'Jeeva Nagar (North)', areaCode: 'WARD_12', lat: 13.1270, lng: 80.2870 },
+  { id: 13, nameTa: 'செரியன் நகர் (தெற்கு)', nameEn: 'Cheriyan Nagar (South)', areaCode: 'WARD_13', lat: 13.1230, lng: 80.2850 },
+  { id: 14, nameTa: 'ஜீவா நகர் (தெற்கு)', nameEn: 'Jeeva Nagar (South)', areaCode: 'WARD_14', lat: 13.1240, lng: 80.2860 },
+  { id: 34, nameTa: 'கொருக்குப்பேட்டை', nameEn: 'Korukkupet', areaCode: 'WARD_34', lat: 13.1150, lng: 80.2780 },
+  { id: 35, nameTa: 'மொட்டைத் தோட்டம்', nameEn: 'Mottai Thottam', areaCode: 'WARD_35', lat: 13.1140, lng: 80.2800 },
+  { id: 36, nameTa: 'குமாரசாமி நகர் (தெற்கு)', nameEn: 'Kumarasamy Nagar (South)', areaCode: 'WARD_36', lat: 13.1160, lng: 80.2820 },
+  { id: 37, nameTa: 'டாக்டர் ராதாகிருஷ்ணன் நகர் (தெற்கு)', nameEn: 'Dr. Radhakrishnan Nagar (South)', areaCode: 'WARD_37', lat: 13.1220, lng: 80.2840 },
+  { id: 38, nameTa: 'குமாரசாமி நகர் (வடக்கு)', nameEn: 'Kumarasamy Nagar (North)', areaCode: 'WARD_38', lat: 13.1180, lng: 80.2810 },
+  { id: 39, nameTa: 'விஜயராகவலு நகர் (மேற்கு)', nameEn: 'Vijayaragavalu Nagar (West)', areaCode: 'WARD_39', lat: 13.1120, lng: 80.2750 },
+  { id: 40, nameTa: 'தண்டையார்பேட்டை', nameEn: 'Tondiarpet', areaCode: 'WARD_40', lat: 13.1280, lng: 80.2890 },
+  { id: 41, nameTa: 'பழைய வண்ணாரப்பேட்டை', nameEn: 'Old Washermenpet', areaCode: 'WARD_41', lat: 13.1100, lng: 80.2850 },
+  { id: 42, nameTa: 'மீனாட்சியம்மன்பேட்டை', nameEn: 'Meenakshiammanpet', areaCode: 'WARD_42', lat: 13.1110, lng: 80.2880 },
+  { id: 99, nameTa: 'இதர பகுதிகள்', nameEn: 'Other / Not Listed', areaCode: 'OTHER', lat: 13.1186, lng: 80.2796 },
 ] as const;
 
 // ============================================================================
