@@ -15,7 +15,7 @@ const dictionary: Record<Language, Record<string, string>> = {
   ta: {
     // Common
     "app.title": "தமிழக வெற்றிக் கழகம் | தொகுதி குறைதீர்ப்பு போர்டல்",
-    "app.footer": "© 2026 தவெக மதுரை கிழக்கு சட்டமன்றத் தொகுதி அலுவலகம் • டிஜிட்டல் ஆளுகை முன்முயற்சி",
+    "app.footer": "© 2026 தவெக ஆர்.கே நகர் சட்டமன்றத் தொகுதி அலுவலகம் • டிஜிட்டல் ஆளுகை முன்முயற்சி",
     "app.confidential": "அனைத்து புகார்களும் ரகசியமாக வைக்கப்படும்",
     "common.loading": "ஏற்றப்படுகிறது...",
     "common.submit": "சமர்ப்பி",
@@ -33,15 +33,15 @@ const dictionary: Record<Language, Record<string, string>> = {
     "nav.logout": "வெளியேறு",
 
     // MLA Profile
-    "mla.partyTag": "தமிழக வெற்றிக் கழகம் • மதுரை கிழக்கு",
-    "mla.name": "எஸ். கார்த்திகேயன்",
-    "mla.sub": "MA, LLB — சட்டமன்ற உறுப்பினர், மதுரை கிழக்குத் தொகுதி",
-    "mla.badge": "📍 மதுரை கிழக்குத் தொகுதி",
+    "mla.partyTag": "தமிழக வெற்றிக் கழகம் • ஆர்.கே நகர்",
+    "mla.name": "திரு.நெ.மரிய வில்சன்",
+    "mla.sub": "மாண்புமிகு நிதி, திட்டம் மற்றும் வளர்ச்சித் துறை அமைச்சர் மற்றும் ஆர்.கே நகர் சட்டமன்ற உறுப்பினர்",
+    "mla.badge": "📍 ஆர்.கே நகர் சட்டமன்றத் தொகுதி",
     "mla.quote": "\"மக்களின் குறைகளைத் தீர்ப்பதே எனது முதல் கடமை. நான் எப்போதும் உங்கள் தேவைகளுக்காக நிற்பேன்.\"",
 
     // Announcements
     "announcements.label": "அறிவிப்புகள்",
-    "announcements.fallback": "தவெக மதுரை கிழக்கு தொகுதி குறைதீர்ப்பு வலைத்தளத்திற்கு வரவேற்கிறோம்! உங்கள் புகார்களை இங்கே பதிவு செய்யலாம்.",
+    "announcements.fallback": "தவெக ஆர்.கே நகர் தொகுதி குறைதீர்ப்பு வலைத்தளத்திற்கு வரவேற்கிறோம்! உங்கள் புகார்களை இங்கே பதிவு செய்யலாம்.",
 
     // Form
     "form.title": "உங்கள் புகாரை சமர்ப்பிக்கவும்",
@@ -61,7 +61,7 @@ const dictionary: Record<Language, Record<string, string>> = {
     "form.emailPlaceholder": "your@email.com",
     "form.emailOpt": "(விருப்பத்திற்குரியது)",
     "form.address": "வீட்டு முகவரி",
-    "form.addressPlaceholder": "கதவு எண், தெரு பெயர், பகுதி — மதுரை கிழக்கு",
+    "form.addressPlaceholder": "கதவு எண், தெரு பெயர், பகுதி — ஆர்.கே நகர்",
     
     "form.complaintDetails": "புகார் விவரங்கள்",
     "form.category": "புகார் வகை",
@@ -81,7 +81,7 @@ const dictionary: Record<Language, Record<string, string>> = {
 
     "form.submitBtn": "புகாரை பதிவு செய்",
     "form.submitting": "பதிவு செய்யப்படுகிறது...",
-    "form.submitNote": "இதைச் சமர்ப்பிப்பதன் மூலம், இந்தப் புகார் உண்மையானது மற்றும் மதுரை கிழக்குத் தொகுதிக்கு உட்பட்டது என்பதை உறுதிப்படுத்துகிறீர்கள். உங்கள் தரவு புகார் தீர்வுக்காக மட்டுமே பயன்படுத்தப்படும்.",
+    "form.submitNote": "இதைச் சமர்ப்பிப்பதன் மூலம், இந்தப் புகார் உண்மையானது மற்றும் ஆர்.கே நகர் தொகுதிக்கு உட்பட்டது என்பதை உறுதிப்படுத்துகிறீர்கள். உங்கள் தரவு புகார் தீர்வுக்காக மட்டுமே பயன்படுத்தப்படும்.",
 
     // Form Errors
     "error.name": "முழு பெயர் தேவை.",
@@ -118,7 +118,7 @@ const dictionary: Record<Language, Record<string, string>> = {
 
     // Wall
     "wall.title": "தீர்வுச் சுவர் (Resolution Wall)",
-    "wall.sub": "மதுரை கிழக்கு தொகுதியில் வெற்றிகரமாகத் தீர்க்கப்பட்ட புகார்கள் மற்றும் மக்கள் பணிகள்.",
+    "wall.sub": "ஆர்.கே நகர் தொகுதியில் வெற்றிகரமாகத் தீர்க்கப்பட்ட புகார்கள் மற்றும் மக்கள் பணிகள்.",
     "wall.before": "முன்னர்",
     "wall.after": "பின்னர்",
     "wall.completed": "முடிக்கப்பட்ட தேதி",
@@ -196,7 +196,7 @@ const dictionary: Record<Language, Record<string, string>> = {
   en: {
     // Common
     "app.title": "Tamilaga Vetri Kazhagam | Constituency Complaint Portal",
-    "app.footer": "© 2026 TVK Madurai East Assembly Constituency Office • Digital Governance Initiative",
+    "app.footer": "© 2026 TVK R.K. Nagar Assembly Constituency Office • Digital Governance Initiative",
     "app.confidential": "All complaints are strictly confidential",
     "common.loading": "Loading...",
     "common.submit": "Submit",
@@ -214,15 +214,15 @@ const dictionary: Record<Language, Record<string, string>> = {
     "nav.logout": "Logout",
 
     // MLA Profile
-    "mla.partyTag": "Tamilaga Vetri Kazhagam • Madurai East",
-    "mla.name": "S. Karthikeyan",
-    "mla.sub": "MA, LLB — Assembly Member, Madurai East Constituency",
-    "mla.badge": "📍 Madurai East Constituency",
+    "mla.partyTag": "Tamilaga Vetri Kazhagam • R.K. Nagar",
+    "mla.name": "Thiru. Ne. Maria Wilson",
+    "mla.sub": "Hon'ble Minister for Finance, Planning and Development and R.K. Nagar MLA",
+    "mla.badge": "📍 R.K. Nagar Constituency",
     "mla.quote": "\"Resolving your issues is my primary duty. I will always stand by your needs.\"",
 
     // Announcements
     "announcements.label": "Announcements",
-    "announcements.fallback": "Welcome to the TVK Madurai East Constituency grievance portal! File your complaints here.",
+    "announcements.fallback": "Welcome to the TVK R.K. Nagar Constituency grievance portal! File your complaints here.",
 
     // Form
     "form.title": "Submit Your Complaint",
@@ -242,7 +242,7 @@ const dictionary: Record<Language, Record<string, string>> = {
     "form.emailPlaceholder": "your@email.com",
     "form.emailOpt": "(Optional)",
     "form.address": "Residential Address",
-    "form.addressPlaceholder": "Door No., Street, Area — Madurai East",
+    "form.addressPlaceholder": "Door No., Street, Area — R.K. Nagar",
     
     "form.complaintDetails": "Complaint Details",
     "form.category": "Complaint Category",
@@ -262,7 +262,7 @@ const dictionary: Record<Language, Record<string, string>> = {
 
     "form.submitBtn": "Submit Complaint",
     "form.submitting": "Submitting...",
-    "form.submitNote": "By submitting, you confirm this complaint is genuine and relates to Madurai East constituency. Your data is used solely for grievance resolution.",
+    "form.submitNote": "By submitting, you confirm this complaint is genuine and relates to R.K. Nagar constituency. Your data is used solely for grievance resolution.",
 
     // Form Errors
     "error.name": "Full name is required.",
@@ -299,7 +299,7 @@ const dictionary: Record<Language, Record<string, string>> = {
 
     // Wall
     "wall.title": "Resolution Wall",
-    "wall.sub": "Visual highlights of successfully resolved citizen grievances and civic works in Madurai East.",
+    "wall.sub": "Visual highlights of successfully resolved citizen grievances and civic works in R.K. Nagar.",
     "wall.before": "Before",
     "wall.after": "After",
     "wall.completed": "Completed Date",

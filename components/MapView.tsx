@@ -26,7 +26,7 @@ interface MapViewProps {
 
 export default function MapView({
   items,
-  center = [9.9325, 78.1250], // Center of Madurai East
+  center = [13.1186, 80.2796], // Center of R.K. Nagar
   zoom = 13,
   interactive = false,
   onMapClick,

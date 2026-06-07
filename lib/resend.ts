@@ -1,7 +1,7 @@
 import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY || "";
-const constituencyEmail = process.env.CONSTITUENCY_EMAIL || "office@tvkmaduraieast.in";
+const constituencyEmail = process.env.CONSTITUENCY_EMAIL || "office@tvkrknagar.in";
 
 export const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
@@ -25,7 +25,7 @@ export async function sendNewComplaintEmail(payload: EmailPayload) {
   const html = `
     <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #DDD9D0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
       <div style="background-color: #142840; color: white; padding: 20px; text-align: center;">
-        <h2 style="margin: 0; font-size: 20px;">TVK Madurai East constituency</h2>
+        <h2 style="margin: 0; font-size: 20px;">TVK R.K. Nagar constituency</h2>
         <p style="margin: 5px 0 0 0; font-size: 14px; color: #D4920F; font-weight: bold; letter-spacing: 1px;">GRIEVANCE REGISTRATION SYSTEM</p>
       </div>
       <div style="padding: 24px; color: #111827; background-color: #FCFBF9;">
@@ -84,7 +84,7 @@ export async function sendNewComplaintEmail(payload: EmailPayload) {
   if (resend) {
     try {
       await resend.emails.send({
-        from: "TVK Grievance Portal <noreply@tvkmaduraieast.in>",
+        from: "TVK Grievance Portal <noreply@tvkrknagar.in>",
         to: constituencyEmail,
         subject: subject,
         html: html,

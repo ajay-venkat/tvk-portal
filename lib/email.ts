@@ -15,9 +15,9 @@ import { Resend } from 'resend';
 // ---------------------------------------------------------------------------
 
 const resendApiKey = process.env.RESEND_API_KEY || '';
-const constituencyEmail = process.env.CONSTITUENCY_EMAIL || 'office@tvkmaduraieast.in';
+const constituencyEmail = process.env.CONSTITUENCY_EMAIL || 'office@tvkrknagar.in';
 const portalUrl = process.env.NEXT_PUBLIC_PORTAL_URL || 'http://localhost:3000';
-const fromEmail = process.env.FROM_EMAIL || 'TVK Grievance Portal <noreply@tvkmaduraieast.in>';
+const fromEmail = process.env.FROM_EMAIL || 'TVK Grievance Portal <noreply@tvkrknagar.in>';
 
 /** Resend client instance — null if API key not configured */
 export const resend = resendApiKey ? new Resend(resendApiKey) : null;
@@ -72,7 +72,7 @@ function buildNewComplaintAdminHtml(payload: NewComplaintEmailPayload): string {
   return `
     <div style="font-family: 'Segoe UI', Tahoma, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #DDD9D0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
       <div style="background-color: #142840; color: white; padding: 20px; text-align: center;">
-        <h2 style="margin: 0; font-size: 20px;">TVK Madurai East Constituency</h2>
+        <h2 style="margin: 0; font-size: 20px;">TVK R.K. Nagar Constituency</h2>
         <p style="margin: 5px 0 0 0; font-size: 14px; color: #D4920F; font-weight: bold; letter-spacing: 1px;">GRIEVANCE REGISTRATION SYSTEM</p>
       </div>
       <div style="padding: 24px; color: #111827; background-color: #FCFBF9;">
@@ -140,7 +140,7 @@ function buildStatusChangeHtml(payload: StatusChangeEmailPayload): string {
   return `
     <div style="font-family: 'Segoe UI', Tahoma, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #DDD9D0; border-radius: 8px; overflow: hidden;">
       <div style="background-color: #142840; color: white; padding: 20px; text-align: center;">
-        <h2 style="margin: 0; font-size: 20px;">TVK Madurai East Constituency</h2>
+        <h2 style="margin: 0; font-size: 20px;">TVK R.K. Nagar Constituency</h2>
         <p style="margin: 5px 0 0 0; font-size: 13px; color: #D4920F;">COMPLAINT STATUS UPDATE</p>
       </div>
       <div style="padding: 24px; color: #111827; background-color: #FCFBF9;">
@@ -176,7 +176,7 @@ function buildStatusChangeHtml(payload: StatusChangeEmailPayload): string {
         </div>
       </div>
       <div style="background-color: #F4F2EE; text-align: center; padding: 12px; font-size: 11px; color: #9CA3AF;">
-        TVK Digital Governance Initiative — Madurai East
+        TVK Digital Governance Initiative — R.K. Nagar
       </div>
     </div>
   `;

@@ -245,8 +245,8 @@ export default function Home() {
       },
       (error) => {
         console.error("GPS error:", error);
-        // Fallback to approximate Madurai East center
-        setGpsLocation({ lat: 9.9325, lng: 78.1250 });
+        // Fallback to approximate R.K. Nagar center
+        setGpsLocation({ lat: 13.1186, lng: 80.2796 });
         setGettingGps(false);
       }
     );
@@ -1163,7 +1163,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto space-y-2 text-xs md:text-sm">
           <p>{t("app.footer")}</p>
           <p className="text-[10px] text-white/35">
-            {t("app.confidential")} • TVK Madurai East Digital Grievance Portal 2026
+            {t("app.confidential")} • TVK R.K. Nagar Digital Grievance Portal 2026
           </p>
         </div>
       </footer>

@@ -14,8 +14,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "TVK Madurai East | Constituency Complaint & Grievance Portal",
-  description: "Bilingual Civic Engagement & Constituency Complaint Redressal Portal for Madurai East - S. Karthikeyan MLA",
+  title: "TVK R.K. Nagar | Constituency Complaint & Grievance Portal",
+  description: "Bilingual Civic Engagement & Constituency Complaint Redressal Portal for R.K. Nagar - Thiru. Ne. Maria Wilson MLA",
 };
 
 export default function RootLayout({

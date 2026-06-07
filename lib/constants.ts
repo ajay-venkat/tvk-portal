@@ -1,5 +1,5 @@
 /**
- * @fileoverview Constants for TVK Madurai East Constituency Complaint Portal.
+ * @fileoverview Constants for TVK R.K. Nagar Constituency Complaint Portal.
  * Single source of truth for all categories, wards, statuses, priorities,
  * and configuration values. Tamil-first with English translations.
  */
@@ -18,7 +18,7 @@ export interface WardDefinition {
   lng: number;
 }
 
-/** All 10 wards in Madurai East constituency */
+/** All wards in R.K. Nagar constituency */
 export const WARDS: readonly WardDefinition[] = [
   { id: 1,  nameTa: 'வார்டு 1 - செல்லூர்',              nameEn: 'Ward 1 - Sellur',           areaCode: 'SELLUR',          lat: 9.9392, lng: 78.1172 },
   { id: 2,  nameTa: 'வார்டு 2 - அருள் தாஸ் காலனி',       nameEn: 'Ward 2 - Aruldhas Colony',   areaCode: 'ARULDHAS',        lat: 9.9350, lng: 78.1200 },
@@ -217,13 +217,13 @@ export const USER_ROLES: readonly { value: UserRole; labelTa: string; labelEn: s
 /** Portal branding constants */
 export const BRANDING = {
   /** Portal name in Tamil */
-  nameTa: 'தமிழக வெற்றி கழகம் — மதுரை கிழக்கு தொகுதி குறை தீர்ப்பு மையம்',
+  nameTa: 'தமிழக வெற்றி கழகம் — ஆர்.கே நகர் தொகுதி குறை தீர்ப்பு மையம்',
   /** Portal name in English */
-  nameEn: 'TVK Madurai East Constituency Complaint Portal',
+  nameEn: 'TVK R.K. Nagar Constituency Complaint Portal',
   /** Short name */
-  shortName: 'TVK Madurai East',
+  shortName: 'TVK R.K. Nagar',
   /** Constituency name */
-  constituency: 'Madurai East',
+  constituency: 'R.K. Nagar',
   /** Party name */
   partyName: 'Tamilaga Vetri Kazhagam',
   /** Party short name */
@@ -247,9 +247,9 @@ export const PAGE_SIZE = 10;
 /** Maximum number of supports allowed per complaint */
 export const MAX_SUPPORTS_PER_COMPLAINT = 10000;
 
-/** Default map center (Madurai East) */
+/** Default map center (R.K. Nagar) */
 export const MAP_CENTER = {
-  lat: 9.9280,
-  lng: 78.1250,
+  lat: 13.1186,
+  lng: 80.2796,
   zoom: 14,
 } as const;
